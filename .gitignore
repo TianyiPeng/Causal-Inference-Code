@@ -130,3 +130,7 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+CIMatrixLib/Rossmann Store Sales/dataset/train.csv
+CIMatrixLib/Rossmann Store Sales/dataset/test.csv
+CIMatrixLib/Rossmann Store Sales/dataset/store.csv
+CIMatrixLib/Rossmann Store Sales/dataset/sample_submission.csv
