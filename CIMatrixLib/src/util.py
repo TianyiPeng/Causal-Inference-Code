@@ -42,7 +42,7 @@ def metric_compute(M, tau, M0, tau_star, Z, metric_name = []):
     error_metrics = {}
     for metric in metric_name:
         if (metric == 'tau'):
-            error_metrics[metric] = np.abs(tau-tau_star) / np.mean(np.abs(M0))
+            error_metrics[metric] = np.abs(tau-tau_star) / np.mean(M0)
         if (metric == 'RMSE_treat_elements'):
             error_metrics[metric] = np.sqrt(np.sum(Z*((M-M0)**2))/np.sum(Z))
         if (metric == 'tau_diff'):
